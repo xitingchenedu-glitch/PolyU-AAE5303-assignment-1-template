@@ -11,7 +11,7 @@
 _ASUS TUF Gaming F16 FX607JV_
 
 **CPU / RAM:**  
-_[e.g., Intel Core i7-11800H, 16GB RAM]_
+_Intel Core i9-13980HX, 16GB RAM_
 
 **Host OS:**  
 _[Windows 11 / macOS / Ubuntu 22.04]_
