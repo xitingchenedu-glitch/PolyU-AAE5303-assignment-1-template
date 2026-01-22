@@ -8,7 +8,7 @@
 ## 1. System Information
 
 **Laptop model:**  
-_[Your laptop model, e.g., Dell XPS 15, MacBook Pro M1, etc.]_
+_ASUS TUF Gaming F16 FX607JV_
 
 **CPU / RAM:**  
 _[e.g., Intel Core i7-11800H, 16GB RAM]_
