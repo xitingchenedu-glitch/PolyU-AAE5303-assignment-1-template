@@ -187,7 +187,9 @@ ros2 run env_check_pkg talker.py
 
 **Output (3–4 lines):**
 ```
-[Paste 3-4 lines of talker output here]
+[INFO] [1769145834.300857745] [env_check_pkg_talker]: Publishing: 'AAE5303 hello #0'
+[INFO] [1769145834.797247829] [env_check_pkg_talker]: Publishing: 'AAE5303 hello #1'
+[INFO] [1769145835.293450473] [env_check_pkg_talker]: Publishing: 'AAE5303 hello #2'
 ```
 
 **Run listener:**
@@ -197,7 +199,9 @@ ros2 run env_check_pkg listener.py
 
 **Output (3–4 lines):**
 ```
-[Paste 3-4 lines of listener output here]
+[INFO] [1769146773.922291076] [env_check_pkg_listener]: I heard: 'AAE5303 hello #0'
+[INFO] [1769146774.427389824] [env_check_pkg_listener]: I heard: 'AAE5303 hello #1'
+[INFO] [1769146774.932376277] [env_check_pkg_listener]: I heard: 'AAE5303 hello #2'
 ```
 
 **Alternative (using launch file):**
