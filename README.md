@@ -216,10 +216,10 @@ _[Include one screenshot showing talker + listener running]_
 
 > **Note:** Write 2–3 issues, even if small. This section is crucial — it demonstrates understanding and problem-solving.
 
-### Issue 1: [Write the exact error message or problem]
+### Issue 1: No executable found-ros2 run env_check_pkg talker.py
 
 **Cause / diagnosis:**  
-_[Explain what you think caused it]_
+_ used wrong executable name for a C++ package_
 
 **Fix:**  
 _[The exact command/config change you used to solve it]_
