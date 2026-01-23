@@ -330,13 +330,13 @@ _[Write your 3-5 sentence reflection here]_
 ✅ **I confirm that I performed this setup myself and all screenshots/logs reflect my own environment.**
 
 **Name:**  
-_[Your name]_
+_[CHEN XITING]_
 
 **Student ID:**  
-_[Your student ID]_
+_[25091409g]_
 
 **Date:**  
-_[Date of submission]_
+_[2026/01/25]_
 
 ---
 
