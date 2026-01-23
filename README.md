@@ -225,11 +225,11 @@ _ used wrong executable name for a C++ package_
 _[The exact command/config change you used to solve it]_
 
 ```bash
-[Your fix command/code here]
+ros2 run env_check_pkg talker
 ```
 
 **Reference:**  
-_[Official ROS docs? StackOverflow? AI assistant? Something else?]_
+_cursor AI assistant_
 
 ---
 
