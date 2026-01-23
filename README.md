@@ -56,7 +56,6 @@ python scripts/test_python_env.py
 
 **Output:**
 ```
-[
 ========================================
 AAE5303 Environment Check (Python + ROS)
 Goal: help you verify your environment and understand what each check means.                                                          
@@ -121,7 +120,7 @@ Step 10: Basic CLI availability
 ✅ ROS 2 runtime OK: talker and listener exchanged messages.
 ✅ Binary 'python3' found at /root/PolyU-AAE5303-env-smork-test/.venv/bin/python3                                                     
 
-All checks passed. You are ready for AAE5303 🚀]
+All checks passed. You are ready for AAE5303 🚀
 ```
 
 ```bash
@@ -130,7 +129,6 @@ python scripts/test_open3d_pointcloud.py
 
 **Output:**
 ```
-[
 ℹ️ Loading /root/PolyU-AAE5303-env-smork-test/data/sample_pointcloud.pcd ...                                                           
 ✅ Loaded 8 points.
    • Centroid: [0.025 0.025 0.025]
@@ -139,11 +137,13 @@ python scripts/test_open3d_pointcloud.py
 ✅ Wrote filtered copy with 7 points to /root/PolyU-AAE5303-env-smork-test/data/sample_pointcloud_copy.pcd                            
    • AABB extents: [0.05 0.05 0.05]
    • OBB  extents: [0.08164966 0.07071068 0.05773503], max dim 0.0816 m                                                               
-🎉 Open3D point cloud pipeline looks good.]
+🎉 Open3D point cloud pipeline looks good.
 ```
 
 **Screenshot:**  
-_[Include one screenshot showing both tests passing]_
+_[Include one screenshot showing both tests passing]
+<img width="2559" height="1527" alt="ScreenShot_1" src="https://github.com/user-attachments/assets/7c381204-8e4d-4574-851c-eedfbf5d2062" />
+_
 
 ![Python Tests Passing](path/to/your/screenshot.png)
 
