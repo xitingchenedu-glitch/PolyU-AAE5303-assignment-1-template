@@ -142,10 +142,8 @@ python scripts/test_open3d_pointcloud.py
 
 **Screenshot:**  
 _[Include one screenshot showing both tests passing]
-<img width="2559" height="1527" alt="ScreenShot_1" src="https://github.com/user-attachments/assets/7c381204-8e4d-4574-851c-eedfbf5d2062" />
-_
 
-![Python Tests Passing](path/to/your/screenshot.png)
+![Python Tests Passing]([path/to/your/screenshot](https://github.com/user-attachments/assets/7c381204-8e4d-4574-851c-eedfbf5d2062).png)
 
 ---
 
@@ -212,7 +210,7 @@ ros2 launch env_check_pkg env_check.launch.py
 **Screenshot:**  
 _[Include one screenshot showing talker + listener running]_
 
-![Talker and Listener Running](path/to/your/screenshot.png)
+![Talker and Listener Running]([path/to/your/screenshot](https://github.com/user-attachments/assets/710869e5-f409-4fa7-b564-d83e85e22f5f).png)
 
 ---
 
@@ -223,10 +221,10 @@ _[Include one screenshot showing talker + listener running]_
 ### Issue 1: No executable found-ros2 run env_check_pkg talker.py
 
 **Cause / diagnosis:**  
-_ used wrong executable name for a C++ package_
+_ used a wrong executable name for a C++ package_
 
 **Fix:**  
-_[The exact command/config change you used to solve it]_
+_Why no executable found ros2 run env_check_pkg talker.py?_
 
 ```bash
 ros2 run env_check_pkg talker
@@ -237,37 +235,23 @@ _cursor AI assistant_
 
 ---
 
-### Issue 2: [Another real error or roadblock]
+### Issue 2: [No listener output displayed]
 
 **Cause / diagnosis:**  
-_[Explain what you think caused it]_
+_The listener and talker are not running simultaneously.
 
 **Fix:**  
-_[The exact command/config change you used to solve it]_
+_Are listener and talker running simultaneously?_
 
 ```bash
-[Your fix command/code here]
+cd /root/PolyU-AAE5303-env-smork-test && source /opt/ros/humble/setup.bash && source install/setup.bash && ros2 run env_check_pkg talker
+sleep 3 && source /opt/ros/humble/setup.bash && source /root/PolyU-AAE5303-env-smork-test/install/setup.bash && timeout 5 ros2 topic echo /env_check_chatter 2>&1 | head -20
+source /opt/ros/humble/setup.bash && source /root/PolyU-AAE5303-env-smork-test/install/setup.bash && timeout 5 ros2 topic echo /rosout 2>&1 | grep -E "listener|I heard" | head -15
+ps aux | grep -E "(talker|listener)" | grep -v grep | grep -v defunct
 ```
 
 **Reference:**  
-_[Official ROS docs? StackOverflow? AI assistant? Something else?]_
-
----
-
-### Issue 3 (Optional): [Title]
-
-**Cause / diagnosis:**  
-_[Explain what you think caused it]_
-
-**Fix:**  
-_[The exact command/config change you used to solve it]_
-
-```bash
-[Your fix command/code here]
-```
-
-**Reference:**  
-_[Official ROS docs? StackOverflow? AI assistant? Something else?]_
+_cursor AI assistant_
 
 ---
 
