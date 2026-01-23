@@ -297,18 +297,22 @@ Explain briefly:
 - Did you double-check with official docs?
 
 **Your explanation:**  
-_[Write your analysis here]_
+After checking the running status of the listener and talker, the AI ​​found the reason why the listener wasn't displaying output: the talker wasn't running. The cursor AI provided me with code to start the talker and view the real-time output; I ran this method directly and received the listener's output.
 
 ### 5.4 Final solution you applied
 
 Show the exact command or file edit that fixed the problem:
 
 ```bash
-[Your final command/code here]
+cd /root/PolyU-AAE5303-env-smork-test && source /opt/ros/humble/setup.bash && source install/setup.bash && ros2 run env_check_pkg talker
+sleep 3 && source /opt/ros/humble/setup.bash && source /root/PolyU-AAE5303-env-smork-test/install/setup.bash && timeout 5 ros2 topic echo /env_check_chatter 2>&1 | head -20
+source /opt/ros/humble/setup.bash && source /root/PolyU-AAE5303-env-smork-test/install/setup.bash && timeout 5 ros2 topic echo /rosout 2>&1 | grep -E "listener|I heard" | head -15
+ps aux | grep -E "(talker|listener)" | grep -v grep | grep -v defunct
+ros2 topic echo /rosout | grep "I heard"
 ```
 
 **Why this worked:**  
-_[Brief explanation]_
+The listener requires the talker to publish messages to produce output. A listener is running in the background, but no talker is running. Therefore, the talker needs to be started to allow the listener to output, and then the listener needs to be run again in the foreground to check the real-time output.
 
 ---
 
