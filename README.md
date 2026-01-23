@@ -265,14 +265,28 @@ Choose one of the issues above and document how you used AI to solve it.
 
 **Your prompt:**
 ```
-[Copy-paste your actual message to the AI, not a summary]
+check whether talker and listener are running correctly 
 ```
 
 ### 5.2 Key helpful part of the AI's answer
 
 **AI's response (relevant part only):**
 ```
-[Quote only the relevant part of the AI's answer]
+Listener Status:
+The listener is running, node name: /env_check_pkg_listener
+Subscribed to topic: /env_check_chatter
+No talker is currently running, therefore the listener will not receive messages.
+Listener Output:
+According to the source code, the listener will output:
+On startup: "AAE5303 listener awaiting messages."
+Upon receiving a message: "I heard: 'AAE5303 hello #<n>'"
+How to view listener output:
+Since the listener runs in the background, the output may not be visible. You can:
+Start the talker to make the listener output:
+ros2 run env_check_pkg talker
+Then the listener will start printing the message "I heard: ...".
+Re-run the listener in the foreground to view real-time output:
+ros2 run env_check_pkg listener
 ```
 
 ### 5.3 What you changed or ignored and why
