@@ -241,7 +241,7 @@ _cursor AI assistant_
 _The listener and talker are not running simultaneously.
 
 **Fix:**  
-_Are listener and talker running simultaneously?_
+_Start the talker to test the listener's output_
 
 ```bash
 cd /root/PolyU-AAE5303-env-smork-test && source /opt/ros/humble/setup.bash && source install/setup.bash && ros2 run env_check_pkg talker
