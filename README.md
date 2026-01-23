@@ -167,7 +167,7 @@ Summary: 1 package finished [x.xx s]
 
 **Your actual output:**
 ```
-[Paste your build summary here]
+Summary: 1 package finished [7.02s]
 ```
 
 ### 3.2 Run talker and listener
