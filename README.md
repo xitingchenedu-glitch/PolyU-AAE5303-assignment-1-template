@@ -327,7 +327,7 @@ Short but thoughtful:
 
 **Your reflection:**
 
-_[Write your 3-5 sentence reflection here]_
+AI can not only analyze problems and quickly provide solutions, but it can even help me run the modified code directly, greatly reducing the difficulty of debugging for coding novices.I am now more confident in learning the courses to come.
 
 ---
 
@@ -350,13 +350,13 @@ _[2026/01/25]_
 
 Before submitting, ensure you have:
 
-- [ ] Filled in all system information
-- [ ] Included actual terminal outputs (not just screenshots)
-- [ ] Provided at least 2 screenshots (Python tests + ROS talker/listener)
-- [ ] Documented 2–3 real problems with solutions
-- [ ] Completed the AI usage section with exact prompts
-- [ ] Written a thoughtful reflection (3–5 sentences)
-- [ ] Signed the declaration
+- [✓] Filled in all system information
+- [✓] Included actual terminal outputs (not just screenshots)
+- [✓] Provided at least 2 screenshots (Python tests + ROS talker/listener)
+- [✓] Documented 2–3 real problems with solutions
+- [✓] Completed the AI usage section with exact prompts
+- [✓] Written a thoughtful reflection (3–5 sentences)
+- [✓] Signed the declaration
 
 ---
 
