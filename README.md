@@ -143,7 +143,7 @@ python scripts/test_open3d_pointcloud.py
 **Screenshot:**  
 _[Include one screenshot showing both tests passing]
 
-![Python Tests Passing]([path/to/your/screenshot](https://github.com/user-attachments/assets/7c381204-8e4d-4574-851c-eedfbf5d2062).png)
+<img width="2559" height="1527" alt="Python Tests Passing" src="https://github.com/user-attachments/assets/21a9dcbb-d664-4068-9e6c-9687ae297287" />
 
 ---
 
@@ -210,7 +210,7 @@ ros2 launch env_check_pkg env_check.launch.py
 **Screenshot:**  
 _[Include one screenshot showing talker + listener running]_
 
-![Talker and Listener Running]([path/to/your/screenshot](https://github.com/user-attachments/assets/710869e5-f409-4fa7-b564-d83e85e22f5f).png)
+<img width="2559" height="1527" alt="Talker and Listener Running" src="https://github.com/user-attachments/assets/354fe946-5709-4b14-b5b2-61b594daf0c0" />
 
 ---
 
