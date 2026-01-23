@@ -167,6 +167,7 @@ Summary: 1 package finished [x.xx s]
 
 **Your actual output:**
 ```
+Finished <<< env_check_pkg [6.68s]                     
 Summary: 1 package finished [7.02s]
 ```
 
