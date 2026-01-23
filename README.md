@@ -14,12 +14,12 @@ _ASUS TUF Gaming F16 FX607JV_
 _Intel Core i9-13980HX, 16GB RAM_
 
 **Host OS:**  
-_[Windows 11 / macOS / Ubuntu 22.04]_
+_Windows 11_
 
 **Linux/ROS environment type:**  
 _[Choose one:]_
 - [ ] Dual-boot Ubuntu
-- [ ] WSL2 Ubuntu
+- [✓] WSL2 Ubuntu
 - [ ] Ubuntu in VM (UTM/VirtualBox/VMware/Parallels)
 - [ ] Docker container
 - [ ] Lab PC
