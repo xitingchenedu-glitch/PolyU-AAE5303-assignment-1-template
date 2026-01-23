@@ -235,7 +235,7 @@ _cursor AI assistant_
 
 ---
 
-### Issue 2: [No listener output displayed]
+### Issue 2: No listener output displayed
 
 **Cause / diagnosis:**  
 _The listener and talker are not running simultaneously.
