@@ -34,7 +34,7 @@ _[Choose one:]_
 Describe briefly how you created/activated your Python environment:
 
 **Tool used:**  
-_[venv / conda / system Python]_
+_venv_
 
 **Key commands you ran:**
 ```bash
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 
 **Any deviations from the default instructions:**  
-_[Describe any changes you made, or write "None"]_
+_None_
 
 ### 2.2 Test Results
 
